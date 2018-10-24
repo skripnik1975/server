@@ -7,8 +7,8 @@ function post(path, callback) {
 }
 
 var b = function (path) {
+console.log('path in callback', path);
 
-    console.log('path in callback', path);
 }
 post('/someaddress', b )
 
